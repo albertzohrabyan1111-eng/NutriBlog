@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    position: relative;
+}
+
+.min_box {
+    width: fit-content;
+    height: fit-content;
+}
+
+.logo {
+    width: 150px;
+    height: fit-content;
+    object-fit: cover;
+    object-position: center;
+}
+
+.meniu_nav {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.knopka {
+    border: none;
+    background: #cfb02c;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.navNam {
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+.navNam:hover {
+    color: #cfb02c;
+}
+
+.knopka:hover {
+    transform: scale(1.05);
+    background: #14124c;
+}
+
+.cartBox {
+    position: relative;
+}
+
+.qanakCart {
+    width: 20px;
+    height: 20px;
+    background: #cfb02c;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.qanakCart p {
+    font-size: 13px;
+}
+
+.Pages {
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+.pages_menu {
+    position: absolute;
+    height: fit-content;
+    width: 150px;
+    background: #ffffff;
+    display: none;
+    opacity: 0;
+}
+
+.pages_menu ul {
+    list-style: none;
+}
+
+.Pages:hover .pages_menu {
+    opacity: 1;
+    display: block;
+}
+
+.nav1 {
+    display: all;
+}
+
+.navbox1 {
+    display: all;
+}
+
+.barsIcon {
+    display: none;
+}
+
+.nav2 {
+    list-style: none;
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbox2 {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.6s;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.navNam2 {
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+.navNam2:hover {
+    color: #cfb02c;
+}
+
+.nkar_box {
+    border: 1px solid;
+    background: url(img/4-min.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+}
+
+.nkar_box .row {
+    min-height: 250px;
+}
+
+.nkar_box .row .col {
+    min-height: 100%;
+}
+
+.nkar_box .row .col h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.ikon {
+    border: 0;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #cfb02c;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+
+.ikon:hover {
+    transform: scale(1.05);
+    background: #14124c;
+}

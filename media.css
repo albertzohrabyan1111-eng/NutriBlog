@@ -1,0 +1,145 @@
+@media (max-width: 992px) {
+    .navbox1 {
+        display: none;
+    }
+
+    .barsIcon {
+        display: block;
+    }
+
+    .barsIcon:hover .navbox2 {
+        transform: translateX(0%);
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+    }
+
+    .bars {
+        font-size: 18px !important;
+    }
+
+    .carts {
+        font-size: 18px !important;
+    }
+
+    .qanakCart p {
+        font-size: 10px !important;
+    }
+
+    .qanakCart {
+        width: 18px;
+        height: 18px;
+    }
+
+    .knopka {
+        font-size: 13px !important;
+    }
+
+    .nav_box {
+        order: 3;
+    }
+
+    .nav_button {
+        order: 2;
+    }
+
+    .nkar_box .row .col h1 {
+        font-size: 50px;
+    }
+
+    .six_img .card h3 {
+        font-size: 18px !important;
+    }
+    .six_img .card p {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 568px) {
+    .logo {
+        width: 75px;
+    }
+
+    .bars {
+        font-size: 16px !important;
+    }
+
+    .carts {
+        font-size: 16px !important;
+    }
+
+    .qanakCart p {
+        font-size: 8px !important;
+    }
+
+    .qanakCart {
+        width: 16px;
+        height: 16px;
+    }
+
+    .knopka {
+        font-size: 11px !important;
+    }
+
+    .navNam2 {
+        font-size: 16px;
+    }
+
+    .nkar_box .row .col h1 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .six_img .card h3 {
+        font-size: 16px !important;
+    }
+    .six_img .card p {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo {
+        width: 75px;
+    }
+
+    .bars {
+        font-size: 12px !important;
+    }
+
+    .carts {
+        font-size: 18px !important;
+    }
+
+    .qanakCart p {
+        font-size: 8px !important;
+    }
+
+    .qanakCart {
+        width: 16px;
+        height: 16px;
+    }
+
+    .knopka {
+        font-size: 5px;
+        padding: 8px 10px !important;
+    }
+
+    .nav_pan {
+        padding: 0 !important;
+    }
+
+    .navNam2 {
+        font-size: 12px;
+    }
+
+    .six_img .card h3 {
+        font-size: 15px !important;
+    }
+    .six_img .card p {
+        font-size: 12px !important;
+    }
+}
